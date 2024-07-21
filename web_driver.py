@@ -6,6 +6,7 @@ from openpyxl import Workbook
 
 
 browser = webdriver.Chrome()
+#link para o linkedIn
 browser.get('https://www.linkedin.com/login/pt')
 sleep(2)
 email = input('Qual é seu E-mail: ')
